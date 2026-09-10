@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+a.active{
+    border : 2px solid red;
+    /* border-right: 0; */
+    
+}
